@@ -1,0 +1,45 @@
+# Dependencies
+node_modules
+package-lock.json
+
+# Build outputs
+dist
+build
+*.tsbuildinfo
+
+# Environment
+.env*
+!.env.example
+
+# IDE
+.idea
+.vscode
+*.sublime-*
+*.swp
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Cache
+.cache
+.npm
+.eslintcache
+.stylelintcache
+
+# Testing
+coverage
+
+# Replit specific
+.replit
+.breakpoints
+replit.nix
